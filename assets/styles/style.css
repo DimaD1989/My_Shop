@@ -20,3 +20,40 @@
     font-family: 'Lato-Italic';
     src: url('../fonts/Lato-Italic.ttf');
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    box-sizing: border-box;
+    /* что все элементы в HTML не будут добавлять внутренние отступы и границы к итоговой ширине. Изменение типа отображения элемента. */
+    font-style: normal;
+    /* устанавливает для текста обычное начертание шрифта. italic. */
+    font-weight: 400;
+    /* насыщенность шрифта. */
+    scroll-behavior: smooth;
+    /* Плавная прокрутка страницы на CSS (scroll-behaviour).
+    Свойство может принимать 3 основных значения: smooth — плавная прокрутка; instant — мгновенная прокрутка; auto — на усмотрение браузера.*/
+    font-family: 'Lato-Light';
+    align-items: center;
+    /* Свойство align - items со значением center совместит центры родителя и каждого из элементов. Если флекс-элементы выстроены в ряд, то align - items управляет выравниванием по вертикали. */
+}
+
+.headler{
+    max-width: 1600px;
+}
+
+.menu{
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding-top: 18px;
+    padding-bottom: 19px;
+    background-color: black;
+    gap: 53.6875%;
+}
