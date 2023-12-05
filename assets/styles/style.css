@@ -49,11 +49,14 @@ body {
 .menu{
     max-width: 1600px;
     display: flex;
+    /* Display: flex — это значит, что всё содержимое контейнера может гибко менять свои размеры по ширине или высоте, подстраиваясь под содержимое. */
     justify-content: space-between;
+    /* space-between — элементы равномерно распределены вдоль главной оси, при этом первый элемент располагается в начале, а последний — в конце. Между крайними элементами и флекс-контейнером отступа нет */
     align-content: center;
+    /* Расположить элементы вокруг центра */
     align-items: center;
     padding-top: 18px;
     padding-bottom: 19px;
-    background-color: black;
+    background-color: #222222;
     gap: 53.6875%;
 }
