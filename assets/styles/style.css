@@ -83,3 +83,64 @@ body {
     margin-right: 240px;
     position: relative;
 }
+
+.content{
+    display: flex;
+    max-width: 1600px;
+    max-height: 764px;
+    align-items: center;
+    background-color: #F1E4E6;
+    gap:  3.96%;
+}
+
+.contentright{
+    display: flex;
+    gap:  16px;
+    margin-top: 290px;
+}
+
+.cover_photo{
+    max-width: 800.58px;
+    max-height: 764px;    
+}
+
+.cover_design_item{
+    width: 12px;
+    height: 92px;    
+}
+
+.content_title{
+    max-width: 377px;
+    max-height: 93px;
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+#the_band{
+    color: #222;
+    font-family: 'Lato-Bold';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+#of_luxerious{
+    color: #222;
+    font-family: 'Lato-Light';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.fashion{
+    color: #F16D7F;
+    font-family: 'Lato-Light';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
