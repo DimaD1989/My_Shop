@@ -382,4 +382,433 @@ body {
    
     border-color: #FF6A6A;
     background-color: white;
+}
+
+.btn_content{
+    font-family: 'Lato-Regular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    letter-spacing: 0em;
+    background-color: none;
+    margin-top: 15px;
+    margin-bottom: 14px;
+    margin-left: 39px;
+    margin-right: 39px;
+    color: #F26376;
+    text-align: center;
+}
+
+@media(max-width: 1024px) and (min-width: 768px){
+    .top{
+        max-width: 1024px;
+
+    }
+    .menu_bar{
+        max-width: 1024px;
+        padding-bottom: 18px;
+        background-color: black;
+        gap: 41.41%;
+    }
+    .site_logo{
+       
+        margin-left: 32px;
+    }
+    .menu_subbar2{
+        
+        margin-right: 41px;
+    }
+   
+   
+    .top_content{
+        /* max-height: 512px; */
+        max-width: 1024px;
+        gap: 5%;
+        box-sizing: border-box;
+    }
+    .top_content_title{
+        min-width: 283px;
+        min-height: 78px;
+        font-size: 24px;
+        line-height: 28.8px;
+       
+    }
+    #the_band{
+        font-size: 44px;
+        line-height: 52.8px;
+    }
+
+    #of_luxerious{
+      
+        font-size: 24px;
+        
+    }
+    .fashion{
+       
+        font-size: 24px;
+
+    }
+
+    .cover_photo{
+        max-width: 368px;
+
+    }    
+    .menu{
+        display: grid;
+        max-width: 1024px;
+        margin-left: 16px;
+        margin-right: 16px;
+        grid-template-rows: 167px 116px;
+        grid-template-columns: 734.5px;
+        gap: 19px;
+        
+    }
+    .menu_small{
+        
+        grid-template-columns: 232px 232px 232px;
+        gap: 20px;
+        align-items: center;
+       
+        
     
+    }
+    .menu_content_photo_big{
+       
+        max-width: 734.5px;
+        
+    }
+    .menu_content_photo{
+        
+        max-width: 232px;
+        max-height: 167px;
+        
+    }
+    .menu_content_text{
+        
+        position: absolute;
+        top:59px;
+        left: 38.98px;
+        
+        font-weight: 400;
+        max-width: 154px;
+        text-align: center;
+    }
+    .menu_content_text_big{
+        color: white;
+        position: absolute;
+        top: 33px;
+        left: 287.86px;
+        
+        max-width: 159.91797px;
+        text-align: center;
+    }
+    .main_content{
+        
+        margin-top: 110px;
+        max-width: 1024px;
+        max-height: 2925px;
+    
+        /* padding-left: 230px;
+        padding-right: 230px; */
+}
+    .main_content_top{
+        max-width: 1024px;
+    }
+    .main_content_title{
+            padding-left: auto;
+            max-width: 189px;
+        
+    }
+    .main_content_text{ 
+        min-width: 336px;
+        line-height: 16.8px;
+        color: #9F9F9F;
+
+
+    }
+    .main_content_body{
+        display: grid;
+        grid-template-columns: 360.00003px 360.000033px;
+        gap: 16px;
+        margin-top: 72.74px;
+    
+
+    }
+    .main_content_item_2{
+       
+        gap: 23.35px;
+     
+        
+    }
+    .goods_name{
+       
+        margin-top: 24.35px;
+        margin-left: 18px;
+
+    }
+    .goods_description{
+       
+        margin-top: 12.65px;
+        margin-bottom: 18px;
+        margin-left: 16.46px;
+
+    }
+    .goods_price{
+        
+        margin-bottom: 20px;
+        margin-left: 18.41px;
+
+    }
+    .btn{
+   
+    border-color: #FF6A6A;
+    background-color: white;
+    
+   }
+   .bottom_btn{
+    
+        margin-top: 32px;
+        margin-bottom: 70.52px;
+       
+  
+}
+    .top_bottom_info{
+        flex-direction: column;
+        padding-top: 48.16px;
+        padding-bottom: 64px;  
+        max-width: 1024px;
+        gap: 48.42px;
+
+
+    }
+
+    .subscribe{
+        max-width: 1024px;
+        min-height: 614px;
+    }
+    .subscribe_background{
+        max-width: 1024px;
+        min-height: 614px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+
+    .seller_info{
+        top: 64px;
+        left: 204px;
+    }
+    .subscribe_form{
+        top: 337px;
+        left: 105px;
+    }
+    .follow_us{
+        padding: 30px 32.34px 30px 32px;
+        display: flex;
+        justify-content: center;
+        max-width: 1024px;
+        gap: 305px;
+        background-color: #222224;
+    
+    }
+    .law_info{
+   
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+        max-width: 2511px;
+    }
+
+ }
+
+
+@media(max-width: 767px) and (min-width: 320px){
+    .headler{
+        max-width: 767px;
+
+    }
+    .topmenu{
+        max-width: 767px;
+        padding-bottom: 18px;
+        gap: 53.333%;
+        overflow: hidden;
+}
+    .site_logo{
+        margin-left: 16px;
+}
+    .menurightsubbar{
+    
+        margin-right: 16px;
+    
+    }      
+    .top_content{   
+        max-width: 770px;
+        min-width: 375px;
+        max-height: 767px;
+        min-height: 363px;
+        justify-content: center;
+        background-color: #F1E4E6;
+         gap:  3.96%;
+}
+    .hidden{
+        display: none;
+    }
+    
+    .top_content_title{
+        max-width: 283px;
+        min-width: 236px;
+        max-height: 78px;
+        min-height: 66px;
+        font-size: 20px;
+        font-weight: 700;
+}
+
+    #the_band{
+        
+        font-size:38px;
+
+}
+    #of_luxerious{
+        
+        font-size: 20px;
+        
+    }
+    .fashion{
+        
+        font-size: 20px;
+        
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        margin-top: 64px;
+        min-width: 343px;
+        justify-content: start;
+        align-items: center;
+        max-width: 767px;
+        margin-bottom: 64px;
+        min-height: 951px;
+       
+        
+    
+}
+    .menu_small{
+       display: flex;
+        flex-direction: column;
+        gap: 272px;
+        align-items: center;
+        min-width: 343px;
+        min-height: 792px;
+  
+
+}
+        .menu_1{
+            display: flex;
+            min-width: 343px;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        .menu_2{
+            display: flex;
+            min-width: 343px;
+            align-items: center;
+            justify-content: center;
+            
+            
+        }
+
+        .menu_3{
+            display: flex;
+            min-width: 343px;
+            align-items: center;
+            justify-content: center;
+        
+            
+        }
+
+        .menu_4{
+           min-width: 343px;
+            max-width: 767px;
+            display: flex;
+           
+            align-items: center;
+            justify-content: center;
+        
+            
+        }
+        .menu_content_photo_big{
+            min-width: 343.3px;
+            object-fit: cover;
+            width: 105%;
+            min-height: 111px;
+        
+    
+        }
+        .menu_content_text{
+            align-self: center;
+            text-align: center;
+        }
+        .menu_content_text_big{
+            top: 30px;
+            left: 92px;
+/*             
+            align-self: center;
+            text-align: center; */
+        }
+
+        .main_content_title{
+            min-width: 182px;
+            min-height: 36px;
+            font-size: 30px;
+            font-weight: 400;
+            line-height: 30px;
+          
+
+}
+        
+        .main_content_body{
+            display: grid;
+            grid-template-columns: 360px;
+            gap: 16px;
+
+            
+        }
+        .goods_name{
+            
+            margin-left: 18px;
+
+        }
+        .goods_description{
+            
+            margin-top: 12.6px;
+            margin-bottom: 17.95px;
+          
+            margin-left: 16.4px;
+
+        }
+        .goods_price{
+            font-family: 'Lato-Regular';
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #F16D7F;
+            margin-bottom: 20px;
+            margin-left: 18.36px;
+
+        }
+        .bottom_btn{
+           
+            margin-top:  40.61px;
+            margin-bottom: 85px;
+        
+        }
+}
